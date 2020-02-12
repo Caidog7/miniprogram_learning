@@ -1,0 +1,11 @@
+<!--pages/from18/from18.wxml
+
+事件绑定-->
+
+<input type="text" bindinput="handleinput"/>
+<button bindtap="handletap" data-opnum="{{1}}">+</button>
+<button bindtap="handletap" data-opnum="{{-1}}">-</button>
+<text>
+     {{num}}
+</text>
+   

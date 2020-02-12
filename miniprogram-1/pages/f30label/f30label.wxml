@@ -1,0 +1,13 @@
+<!-- pages/f30label/f30label.wxml -->
+<text>pages/f30label/f30label.wxml</text>
+<button>默认按钮</button>
+<button size="mini">小按钮</button>
+<button type="primary">主要按钮</button>
+<button type="warn">警告</button>
+<button open-type="contact">contact</button>
+<button open-type="feedback">feedback</button>
+<button open-type="getPhoneNumber">getPhoneNumber</button>
+<button open-type="getUserInfo" bindgetuserinfo="getUserInfo">getUserInfo</button>
+<button open-type="launchApp">launchApp</button>
+<button open-type="openSetting">openSetting</button>
+<button open-type="share">share</button>

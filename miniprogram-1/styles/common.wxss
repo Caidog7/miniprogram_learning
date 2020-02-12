@@ -1,0 +1,7 @@
+text::selectable{
+    color: cornflowerblue;
+    font-size: 100px;
+}
+/* .te{
+  color: yellowgreen
+} */

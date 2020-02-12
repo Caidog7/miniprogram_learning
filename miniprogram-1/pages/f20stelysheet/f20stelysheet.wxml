@@ -1,0 +1,14 @@
+<!--pages/f20stelysheet/f20stelysheet.wxml
+<text>pages/f20stelysheet/f20stelysheet.wxml</text>
+-->
+<text>
+  px  
+</text>
+<view class="te" hover-class="none" hover-stop-propagation="false">
+    123 235
+    12
+    <text selectable="{{true}}">
+        123 235
+        12
+    </text>
+</view>

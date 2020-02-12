@@ -1,0 +1,55 @@
+<!--pages/index1/index1.wxml
+<text>
+当前时间：{{time}}
+</text>
+<text data-test="{{test}}">hello worl-d</text>-->
+<!-- <text wx:if="{{}}">
+un</text><text>succeed</text> -->
+<!-- <checkbox checked="true" color="green"></checkbox>
+
+  wx:for-item="item1"
+   wx:for-index="index" -->
+  
+
+  
+   <!-- 10  wx:for的列表渲染 
+<view
+ wx:for="{{list}}"
+   wx:key="id"
+   >
+索引:{{index}} -- 名称:{{item.name1}}    
+</view>
+
+<view wx:for="{{person}}"
+  wx:for-item="value"
+   wx:for-index="key"
+   wx:key="name1">
+sy:{{key}}--mingc{{value}}
+</view>
+    -->
+
+
+
+<!-- 11 条件渲染
+
+<view wx:if="{{false}}">1</view>
+<view wx:elif="{{false}}">2
+  
+</view>
+<view  wx:else>1
+  1
+</view>
+<view hidden="{{false}}">1
+  
+</view>
+<view hidden>1
+  
+</view>
+! hidden不与样式style一起使用，hidden原理即为样式，同时使用会覆盖
+ -->
+
+ ------------------------------------
+
+ 
+
+

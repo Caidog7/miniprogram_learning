@@ -1,0 +1,8 @@
+/* pages/f20stelysheet/f20stelysheet.wxss
+view{
+    width:200rpx;
+    height:200rpx;
+    font-size: x-large;
+    background-color: beige;
+} */
+@import "../../styles/common.wxss"

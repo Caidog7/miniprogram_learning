@@ -1,0 +1,6 @@
+shift+alt+a  块注释
+ctrl+/      行注释
+ctrl+h     替换
+ctrl+f      查找
+ctrl+enter  下方插入一行
+alt+shift+f     格式化代码

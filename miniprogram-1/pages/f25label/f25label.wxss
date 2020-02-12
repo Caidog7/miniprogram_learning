@@ -1,0 +1,14 @@
+/* pages/f25label/f25label.wxss */
+ /* image{
+    width: 750rpx;
+} */
+/* swiper{
+height: 240px
+}  */
+swiper{
+    width:100%;
+    height: calc(100vw*201.91/375)
+} 
+image{
+  width: 100%;
+}

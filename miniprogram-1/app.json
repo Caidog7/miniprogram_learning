@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/f30label/f30label",
+    "pages/f28label/f28label",
+    "pages/f25label/f25label",
+    "pages/f20stelysheet/f20stelysheet",
+    "pages/from18/from18",
+    "pages/index1/index1",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#abc",
+    "navigationBarTitleText": "城南干货店",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh":true
+  },
+  "tabBar":{
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "text":"首页",
+        "selectedIconPath":"images/first.png",
+        "iconPath":"images/first.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "用户",
+        "selectedIconPath": "images/user.png",
+        "iconPath":"images/user.png"
+      }
+    ],
+    "color": "#000000",
+    "selectedColor": "#a00000"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

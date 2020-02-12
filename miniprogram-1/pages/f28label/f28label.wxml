@@ -1,0 +1,23 @@
+<!--pages/f28label/f28label.wxml-->
+<text>pages/f28label/f28label.wxml</text>
+<!-- navigator
+0 块级元素（加一个会换行）
+1 url 路径分 相对路径   绝对路径
+2 target    
+        self 默认 跳转到自己的小程序
+        miniprogram   其他小程序
+3 -->
+<navigator url="/pages/f25label/f25label">
+    swiper
+</navigator>
+
+
+
+<!-- 富文本 rich-text
+一 nodes 属性实现富文本
+    1 接收标签字符串
+    2 接受对象数组
+    -->
+    <rich-text nodes="{{html}}">
+    </rich-text>
+

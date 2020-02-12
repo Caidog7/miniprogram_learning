@@ -1,0 +1,15 @@
+<!-- pages/f25label/f25label.wxml -->
+<text>pages/f25label/f25label.wxml</text>
+<text>123</text>
+<!-- <image mode="widthFix" src="https://s2.ax1x.com/2020/02/10/15tbPx.jpg"  /> -->
+<swiper autoplay="{{true}}" indicator-dots="{{true}}" interval="1000" circular="{{true}}" indicator-active-color="#b7881e">
+  <swiper-item>
+    <image mode="widthFix" src="https://aecpm.alicdn.com/simba/img/TB1XotJXQfb_uJkSnhJSuvdDVXa.jpg" />
+  </swiper-item>
+  <swiper-item>
+    <image mode="widthFix" src="https://img.alicdn.com/tfs/TB1ieKUvhn1gK0jSZKPXXXvUXXa-520-280.jpg_q90_.webp" />
+  </swiper-item>
+  <swiper-item>
+    <image mode="widthFix" src="https://aecpm.alicdn.com/simba/img/TB183NQapLM8KJjSZFBSutJHVXa.jpg" />
+  </swiper-item>
+</swiper>
