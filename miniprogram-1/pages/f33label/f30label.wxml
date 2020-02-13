@@ -1,0 +1,5 @@
+<!--pages/f33label/f30label.wxml-->
+<text>pages/f33label/f30label.wxml</text>
+<icon type="success|success_no_circle|info|warn|waiting|cancel|download|search|clear" size="23" color="">
+    
+</icon>
