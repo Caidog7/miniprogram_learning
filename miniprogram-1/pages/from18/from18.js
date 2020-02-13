@@ -8,7 +8,7 @@ Page({
 
   },
   handleinput(e){
-    // console.log(e.detail.value)
+    //console.log(e.detail.value)
     this.setData({num:e.detail.value})
   },
   handletap(e){
