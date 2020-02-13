@@ -1,5 +1,15 @@
-<!--pages/f33label/f30label.wxml-->
-<text>pages/f33label/f30label.wxml</text>
-<icon type="success|success_no_circle|info|warn|waiting|cancel|download|search|clear" size="23" color="">
-    
-</icon>
+<!-- pages/f33label/f30label.wxml -->
+<!-- <text>pages/f33label/f30label.wxml</text> -->
+<!-- 图标 包括 success, success_no_circle, info, warn, waiting, cancel, download, search, clear -->
+<icon type="clear" size="60" color="#c96965" />
+<!-- </icon> -->
+<!-- 单选框  radio
+value 	string 		否 	   radio 标识。当该radio 选中时，radio-group 的 change 事件会携带radio的value 	
+
+checked 	boolean 	false 	否 	当前是否选中 	
+disabled 	boolean 	false 	否 	是否禁用 	
+color 	string 	#09BB07 	否 	radio的颜色，同css的color -->
+<radio-group bindchange="">
+    <radio class="" value="" disabled="false" checked="false" color=""></radio>
+    <radio class="" value="" disabled="false" checked="false" color=""></radio>
+</radio-group>
