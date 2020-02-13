@@ -9,7 +9,6 @@ Page({
   },
   displayTaxt(e){
     console.log(e.detail.value);
-    
     this.setData({gender:e.detail.value})
   },
   /**

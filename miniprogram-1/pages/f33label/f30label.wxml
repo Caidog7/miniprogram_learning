@@ -10,9 +10,17 @@ checked 	boolean 	false 	否 	当前是否选中
 disabled 	boolean 	false 	否 	是否禁用 	
 color 	string 	#09BB07 	否 	radio的颜色，同css的color -->
 <radio-group bindchange="displayTaxt">
-    <radio value="male" >男</radio>
-    <radio value="female" >女</radio>
+    <radio value="male">男</radio>
+    <radio value="female">女</radio>
 </radio-group>
+<view>您选择的是{{gender}}</view>
+<!-- 复选框 checkbox
+与单选框类似 -->
+<checkbox-group bindchange="displayTaxt">
+    <checkbox value="1">1</checkbox>
+    <checkbox value="2">2</checkbox>
+    <checkbox value="3">3</checkbox>
+</checkbox-group>
 <view >
-    您选择的是{{gender}}
+    {{gender}}
 </view>
