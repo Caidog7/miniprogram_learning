@@ -27,11 +27,14 @@ Component({
   methods: {
     handleTitle(e){
       const {index}=e.currentTarget.dataset;
-      let {tabs}=this.data;
-      tabs.forEach((v,i) => i===index?v.isActive=true:v.isActive=false);
-      this.setData({tabs})
+      this.triggerEvent("itemChange",{index});
+      // let {tabs}=this.data;
+      // tabs.forEach((v,i) => i===index?v.isActive=true:v.isActive=false);
+      // this.setData({tabs})
       // 这一段不太懂，逻辑还行就是这些函数看不懂 
       //加了{}的赋值叫解构 对复杂类型进行解构时 复制一份变量的引用
     }
+    
+
   }
 })

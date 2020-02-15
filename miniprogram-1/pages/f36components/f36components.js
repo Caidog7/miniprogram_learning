@@ -32,7 +32,14 @@ Page({
       },
     ]
   },
-
+// 子向父传递参数函数
+handleItemChange(e){
+  const { index } = e.detail;
+        let {tabs}=this.data;
+      tabs.forEach((v,i) => i===index?v.isActive=true:v.isActive=false);
+      this.setData({tabs})
+  // console.log(e)
+},
   /**
    * 生命周期函数--监听页面加载
    */
