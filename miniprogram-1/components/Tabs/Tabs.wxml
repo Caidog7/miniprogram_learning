@@ -1,0 +1,17 @@
+<!-- components/Tabs/Tabs.wxml
+<text>components/Tabs/Tabs.wxml</text> -->
+
+<view class="tabs" hover-class="none" hover-stop-propagation="false">
+    <view class="tabs_title ">
+        <!-- <view class="tabs_item active">首页</view>
+        <view class="tabs_item">原创</view>
+        <view class="tabs_item">分类</view>
+          <view class="tabs_item">关于</view> -->
+        <view class="tabs_item {{item.isActive?'active':''}}" wx:for="{{tabs}}" wx:key="id" bindtap="handleTitle"
+        data-index="{{item.id}}"
+        >
+            {{item.item}}
+        </view>
+    </view>
+    <view class="tabs_content" hover-class="none" hover-stop-propagation="false">内容</view>
+</view>

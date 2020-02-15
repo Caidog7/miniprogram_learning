@@ -1,0 +1,3 @@
+<!--pages/f36components/f36components.wxml-->
+<!-- <text>pages/f36components/f36components.wxml</text>/ -->
+<Tabs tabs="{{tabs}}"></Tabs>
